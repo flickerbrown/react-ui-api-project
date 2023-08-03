@@ -4,7 +4,6 @@ Modal.setAppElement("#root")
 
 const CharacterModal = ({ character, isOpen, onRequestClose }) => {
   if (!character) return null
-  console.log(character)
   //if any of the character inputs is empty, return "unknown"
 
   if (character.house === "") {

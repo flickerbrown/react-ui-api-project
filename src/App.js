@@ -4,6 +4,7 @@ import Students from "./screens/StudentsScreen";
 import Staff from "./screens/StaffScreen";
 import NavBar from "./components/NavBar";
 import "./App.css";
+
 function App() {
   return (
     <div className="App">

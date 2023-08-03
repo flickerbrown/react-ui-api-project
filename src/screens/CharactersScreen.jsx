@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { getCharacters } from "../services/hpCharacters"
-import CharactersComponents from "../components/Characters"
+import CharactersComponents from "../components/CharactersComponent"
 import CharacterModal from "./CharacterModal"
 
 export default function Characters() {
